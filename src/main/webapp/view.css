@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+	/*nav bar css*/
+	.nav-box {
+    	margin: 0px 10px;
+	}
+	
+	
+            .title{
+               font-size: 26px;
+               font-weight: bold;
+               margin-bottom: 30px;
+            }
+
+            .table thead tr th{
+                background: #E4E4E4;
+                color: #686868;
+                vertical-align: middle;
+            }
+
+            .table tbody tr td{
+                vertical-align: middle;
+            }
+
+            .table thead tr th:first-child {
+                border-top-left-radius: 15px;
+            }
+
+            .table thead tr th:last-child {
+                border-top-right-radius: 15px;
+            }
+
+            .table tbody tr:nth-child(odd){
+               background: #FFFFFF !important;
+            }
+
+            .table tbody tr:nth-child(even){
+               background: #F8F8F8 !important;
+            }
+
+
+            .table .text1{
+              font-weight: bold;
+              font-size: 18px;
+              margin: 0;
+            }
+
+            .table .text2{
+              font-size: 14px;
+              margin: 0;
+            }
+
+            .middle{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            .center{
+              display: block;
+              vertical-align: middle;
+            }
+
+            .text-bg-success{
+              background: rgb(182,219,76) !important;
+              color: #ffffff !important;
+            }
+
+            .text-bg-warning{
+              background: rgb(236,181,55) !important;
+              color: #ffffff !important;
+            }
+
+            .text-bg-danger{
+              background: rgb(195,55,31) !important;
+              color: #ffffff !important;
+            }
+
+            .search{
+              margin-bottom: 30px;
+              max-width: 300px;
+            }
+
+            .search input{
+              font-size: 14px;
+            }
+
+            .search .input-group-text{
+              background: #ffffff;
+              border-right: 0px;
+              color: #686868;
+            }
+
+            .search .form-control:focus{
+               box-shadow: none;
+               outline: none;
+            }
