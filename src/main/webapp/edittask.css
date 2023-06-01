@@ -4,11 +4,19 @@
     	margin: 0px 10px;
 	}
 	
-	
-            .title{
-               font-size: 30px;
-               font-weight: bold;
-               margin-bottom: 30px;
-            }
+	body{
+		padding: 20px;
+		margin-top: 50px;	
+	}
 
+	.form-group{
+		margin-top: 20px;
+	}
+
+	.button-class{
+		text-align: center;
+        border: 1px ;
+        margin-top: 20px;
+      
+	}
          
