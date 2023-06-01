@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+	/*nav bar css*/
+	.nav-box {
+    	margin: 0px 10px;
+	}
+	
+	
+            .title{
+               font-size: 30px;
+               font-weight: bold;
+               margin-bottom: 30px;
+            }
+
+         
