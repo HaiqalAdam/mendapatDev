@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Management System</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="createtask.css">
+  <!-- Custom CSS -->
+
+</head>
+
+<body>
+  	<nav class="navbar fixed-top bg-body-tertiary nav-box">
+		<div class="row row-content">
+        	<img src="logo.png" alt="..." class="img_logo" />
+        </div>
+      	<div class="btn-container-user">
+        	<div class="dropdown-center">
+          		<button class="btn dropdown-toggle nav-box" type="button" data-bs-toggle="dropdown" aria-expanded="false">Mio</button>
+          		<ul class="dropdown-menu">
+            	<li><a class="dropdown-item" href="index.html">Logout</a></li>
+          		</ul>
+			</div>
+      	</div>
+    	</nav>
+    	
+  <div class="container">
+    <h1>Create Task</h1>
+    <form>
+     <div class="form-group">
+        <label for="task-name">Task Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter task title">
+      </div>
+      <div class="form-group">
+        <label for="task-status">Task Status</label>
+        <select class="form-control" id="status" name="status">
+          <option value="personal">Success</option>
+          <option value="work">Delayed</option>
+          <option value="study">Ongoing</option>
+          <option value="other">Pending</option>
+        </select>
+      </div>
+        <label>Task Category</label>
+      <fieldset>
+      <div class="some-class">
+        <input type="radio" class="radio" name="task-category" value="work" id="work" />
+        <label for="work">Work</label>
+        <input type="radio" class="radio" name="task-category" value="entertainment" id="entertainment" />
+        <label for="entertainment">Entertainment</label>
+      </div>
+    </fieldset>
+      <div class="form-group">
+        <label for="task-description">Task Description</label>
+        <textarea class="form-control" id="description" rows="3" placeholder="Enter task description"></textarea>
+      </div>
+     
+      <button type="submit" class="btn btn-primary btn-submit">Create Task</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

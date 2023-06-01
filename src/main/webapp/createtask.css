@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+ body {
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .btn-submit {
+      width: 100%;
+      background-color: green;
+      border-color: green;
+    }	/*nav bar css*/
+	.nav-box {
+    	margin: 0px 10px;
+	}
